@@ -70,3 +70,32 @@ public class tabish {
         student1.print();
     }
 }
+
+// 3) Copy constructor
+class copyconstructor{
+    int mobileNo;
+    String companyname;
+
+    public void print(){
+        System.out.println(this.mobileNo+" "+this.companyname);
+    }
+
+    copyconstructor() {
+    }
+
+    copyconstructor(copyconstructor c2){
+        this.mobileNo = c2.mobileNo;
+        this.companyname = c2.companyname;
+    }
+}
+
+public class tabish {
+    public static void main(String[] args) {
+        copyconstructor c1 = new copyconstructor();
+        c1.mobileNo=879372522;
+        c1.companyname="FAANGM";
+
+        copyconstructor c2 = new copyconstructor(c1);
+        c2.print();
+    }
+}
