@@ -23,3 +23,30 @@ public class tabish {
         e2.printinfo();
     }
 }
+
+//Constructors
+// 1) Non Parameterized Constructor
+// EMP_Table() is a Constructor this are called in class EMP_Table. Java build this constructor automatically if we didnt create it.
+class nonparaconstructor{
+    String name;
+    int id;
+    public void print(){
+        System.out.println(this.name+" "+this.id);
+    }
+
+    nonparaconstructor() {
+        System.out.println("This will get printed after creating an object in main function. This is Non Parameterized constructor");
+    }
+}
+public class tabish {
+    public static void main(String[] args) {
+        nonparaconstructor student1 = new nonparaconstructor(), student2 = new nonparaconstructor();
+        student1.name="TabishAnsari";
+        student1.id=4619606;
+        student2.name="Fatima";
+        student2.id=4496998;
+        
+        student1.print();
+        student2.print();
+    }
+}
