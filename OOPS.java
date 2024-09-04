@@ -50,3 +50,23 @@ public class tabish {
         student2.print();
     }
 }
+
+//2) Parameterized constructor
+class paraconstructor{
+    String name;
+    int id;
+    public void print(){
+        System.out.println(this.name+" "+this.id);
+    }
+
+    paraconstructor(String name,int id) {
+        this.name = name;
+        this.id = id;
+    }
+}
+public class tabish {
+    public static void main(String[] args) {
+        paraconstructor student1 = new paraconstructor("Tabish",04);
+        student1.print();
+    }
+}
