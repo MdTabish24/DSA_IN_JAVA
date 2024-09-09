@@ -1,4 +1,5 @@
-//Arraylists in java:
+//Arraylists in java:   --09/09/2024[MONDAY]
+//I have get to know about arraylist and its operation in Java and i am glad that i took my interest in learning Java. Its super fun
 import java.util.*;
 public class tabish{
     public static void main(String[] args) {
