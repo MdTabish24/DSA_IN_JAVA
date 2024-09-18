@@ -1,4 +1,4 @@
-//LinkedList --Total 6 opration
+//LinkedList --Total 6 opration    --18 sept 2024
  class t{
     Node head;
     class Node{
